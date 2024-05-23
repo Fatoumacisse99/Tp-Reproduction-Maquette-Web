@@ -22,7 +22,7 @@ body{
    position: relative;  }
 #header{
 
-  
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +101,7 @@ select {
    justify-content: center;
    padding-top: 70px;
    align-items: center;
-   font-size: 30px;
+   font-size: 35px;
  
    
    /* padding-left: 20px; */
@@ -291,7 +291,7 @@ select {
 .textleft2 p{
   line-height: 1.55;
   width: 400px;
-  font-size: 18Fpx;
+  font-size: 18px;
 }
  
 #voirplus{
@@ -451,10 +451,13 @@ select {
   justify-content: space-between;
 }
 .rose{
-  background-color: var(--enpeusomo);
+  background-color: #F9F4;
   height: 500px;
   width: 500px;
   border-radius: 10px;
+}
+.offre-en-cours{
+  color: var(--prouge);
 }
 .separator{
   width: 100%;
@@ -475,7 +478,18 @@ select {
   background-color: var(--white);
  box-shadow: 0 0 10px rgb(0,0,0,0.2); 
  width: 150px;
- border-radius: 15px;
+ border-radius: 20px;
+ 
+ padding: 19px;
+}
+.poste{
+  font-size: 15px;
+  color: var(--prouge);
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.postes{
+  padding-left: 20px;
 }
 .ligne4{
  width: 30px;
@@ -500,13 +514,65 @@ select {
   display: flex;
   justify-content: space-between;
 }
+.circle i{
+  padding-right: 20px;
+  font-size: 20px;
+
+}
+.formateur{
+  padding: 20px ; 
+  font-size: 20px;
+  font-weight: lighter;
+}
+.offre-en-cours{
+  padding: 0 20px;
+  color: var(--prouge);
+
+}
 .inputclass{
   display: grid;
   grid-template-columns: repeat(2 ,240px);
   grid-template-rows:repeat(2, 100px) ;
 }
+  
  .input input{
   padding: 16px 22px;
   border-radius: 10px;
   border: 1px solid var(--enpeugris);
+  box-shadow: 0 0 10px rgb(0,0,0,0.2);
 }
+/* form textarea{ 
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #F8F8F8;
+  border: 2px solid blueviolet;
+  outline-color:blueviolet;
+  border-radius: 5px;
+  resize: none;
+ 
+ }    */
+ #message{
+  width: 460px;
+  height: 120px;
+  border-radius: 7px;
+  resize: none;
+  box-shadow: 0 0 10px rgb(0,0,0,0.2);
+  border: 1px solid var(--enpeugris);
+  padding:20px 0 10px 20px ;
+  margin-bottom: 20px;
+ }
+  .joindre{
+  display: flex;
+  padding: 10px 35px;
+  border-radius: 25px;
+  margin-top : 9px;
+  color: var(--white);
+  background-color: var(--prouge);
+  border: none;
+  margin-bottom: 10px;
+ 
+ }
+ .agree{
+  margin-top: -20px;
+  margin-left: 20px;
+ }
