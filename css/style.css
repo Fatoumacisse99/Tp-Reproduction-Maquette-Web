@@ -630,6 +630,16 @@ select {
   padding:20px 0 10px 20px ;
   margin-bottom: 20px;
  }
+ .joindre-fichier{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  color: var(--prouge);
+  
+
+ }
    .joindre{
   display: flex;
   padding: 10px 35px;
